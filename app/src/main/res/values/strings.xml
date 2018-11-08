@@ -3,4 +3,8 @@
     <string name="judul_artikel_berita">Judul Artikel Berita</string>
     <string name="sabtu_12_maret_2018">Sabtu, 12 Maret 2018</string>
     <string name="oleh_fiqri_hafzain_islami">Oleh : Fiqri Hafzain Islami</string>
+    <string name="object">OBJECT</string>
+    <string name="response">Response</string>
+    <string name="success">Success</string>
+    <string name="data_berita">Data Berita</string>
 </resources>

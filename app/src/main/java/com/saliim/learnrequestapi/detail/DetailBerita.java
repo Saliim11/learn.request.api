@@ -15,10 +15,8 @@ public class DetailBerita extends AppCompatActivity {
     TextView dJudul, dPenulis, dTgl, dIsi;
     ImageView dGambar;
 
-    String djud, dpen, dtgl, disi;
-
     //TODO : buat variabel secara konstan sebagai key nya / penampung
-    public static final String EXTRA_OBJECT = "OBJECT";
+    public final String EXTRA_OBJECT = getString(R.string.object);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

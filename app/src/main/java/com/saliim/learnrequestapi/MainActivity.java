@@ -41,12 +41,12 @@ public class MainActivity extends AppCompatActivity {
         call.enqueue(new Callback<ResponseBerita>() {
             @Override
             public void onResponse(Call<ResponseBerita> call, Response<ResponseBerita> response) {
-                Log.d("Response", "Success" + response.body().toString());
+                Log.d(getString(R.string.response), getString(R.string.success) + response.body().toString());
                 List<BeritaItem> beritaItem = response.body().getBerita();
                 boolean status = response.body().isStatus();
 
                 if (status){
-                    Log.d("Data Berita", beritaItem.toString());
+                    Log.d(getString(R.string.data_berita), beritaItem.toString());
 
                     AdapterBerita adapter = new AdapterBerita(MainActivity.this, beritaItem);
                     list.setAdapter(adapter);
