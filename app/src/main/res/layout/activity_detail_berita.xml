@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/detail_gambar"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/width_image"
+        android:layout_height="@dimen/height_image"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"/>
 
@@ -18,28 +18,28 @@
         android:id="@+id/detail_judul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:padding="10dp"/>
+        android:textSize="@dimen/text_size"
+        android:padding="@dimen/mini_size"/>
 
     <TextView
         android:id="@+id/detail_tgl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:textSize="20dp" />
+        android:padding="@dimen/mini_size"
+        android:textSize="@dimen/text_size" />
 
     <TextView
         android:id="@+id/detail_penulis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:textSize="20dp" />
+        android:padding="@dimen/mini_size"
+        android:textSize="@dimen/text_size" />
 
     <TextView
         android:id="@+id/detail_isi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:textSize="20dp" />
+        android:padding="@dimen/mini_size"
+        android:textSize="@dimen/text_size" />
 
 </LinearLayout>

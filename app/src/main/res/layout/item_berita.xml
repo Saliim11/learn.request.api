@@ -3,19 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginLeft="@dimen/margin"
-    android:layout_marginRight="15dp"
+    android:layout_marginRight="@dimen/margin"
     android:layout_marginTop="@dimen/margin">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingVertical="5dp">
+        android:paddingVertical="@dimen/padding_vertical">
 
         <ImageView
             android:id="@+id/iv_gambar_berita"
             android:layout_width="match_parent"
-            android:layout_height="180dp"
+            android:layout_height="@dimen/image_height_2"
             android:layout_marginHorizontal="10dp"
             android:scaleType="fitXY"
             android:src="@mipmap/ic_launcher" />
@@ -24,30 +24,30 @@
             android:id="@+id/tv_judul_berita"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="10dp"
-            android:layout_marginVertical="10dp"
-            android:text="Judul Artikel Berita"
+            android:layout_marginHorizontal="@dimen/mini_size"
+            android:layout_marginVertical="@dimen/mini_size"
+            android:text="@string/judul_artikel_berita"
             android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            android:textSize="@dimen/text_size" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="10dp"
+            android:layout_marginHorizontal="@dimen/mini_size"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/tv_tgl_terbit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sabtu, 12 Maret 2018" />
+                android:text="@string/sabtu_12_maret_2018" />
 
             <TextView
                 android:id="@+id/tv_penulis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="10dp"
-                android:text="Oleh : Fiqri Hafzain Islami" />
+                android:layout_marginHorizontal="@dimen/mini_size"
+                android:text="@string/oleh_fiqri_hafzain_islami" />
 
         </LinearLayout>
 
